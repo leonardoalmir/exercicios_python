@@ -5,7 +5,7 @@ print("""{}
 ==================== DESAFIO 048 ======================
 Faça um programa que calcule a soma entre todos os 
 números impares que são múltiplos de três e que se 
-encontram no intervalo de 1 até 500.
+encontram no intervalo de 1 até 500. 
 =======================================================\n{}""".format(cinza, limpa))
 contador = 0
 soma = 0
