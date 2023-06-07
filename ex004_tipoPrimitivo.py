@@ -1,0 +1,16 @@
+print("======= DESAFIO 004 =======")
+print(
+    "Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações "
+    "possiveis sobre ele usando o is...")
+print("===========================")
+algo = input("Digite alguma coisa: ")
+tipoPrimitivo = type(algo)
+print('O tipo primitivo do que você digitou é: {}'.format(tipoPrimitivo))
+print('É númerico? {}' .format(algo.isnumeric()))
+print('É alfanumérico? {}' .format(algo.isalnum()))
+print('É alfabetico? {}' .format(algo.isalpha()))
+print('É decimal? {}' .format(algo.isdecimal()))
+print('É um texto em minúsculo? {}' .format(algo.islower()))
+print('É um texto em maiúsculo? {}' .format(algo.isupper()))
+print('Está capitalizado? {}' .format(algo.istitle()))
+print('Só tem espaço? {}' .format(algo.isspace()))
