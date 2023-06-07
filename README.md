@@ -1,2 +1,2 @@
-# exercicios_python
-Estudando Python
+# Estudando Python
+Esses são os exercícios feitos até agora.
