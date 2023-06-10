@@ -1,4 +1,3 @@
-print("Oi")
 
-for c in range(1, 5):
-    print("Tudo bem?")
+conta = (3.84 * 10**-21) / ((1.6 * 10**-19) * (30 * 10**-3))
+print("{:e}".format(conta))
